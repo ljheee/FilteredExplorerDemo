@@ -22,8 +22,6 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
 
 import about.About;
 
@@ -49,6 +47,8 @@ import frm.FileList;
  */
 public class ExplorerMain extends JFrame implements ActionListener{
 
+	private static final long serialVersionUID = 1L;
+	
 	/** 文件目录树 */
 	public static DirTree tree = null;
 	/** 文件列表 */

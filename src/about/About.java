@@ -9,6 +9,8 @@ import java.net.*;
 
 public class About extends JDialog
 {
+	private static final long serialVersionUID = 1L;
+	
 	private JLabel TopLab;
 	private MyDongcLabel CenLab;
 	private JLabel LineLab;

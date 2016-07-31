@@ -41,6 +41,8 @@ import main.ExplorerMain;
  */
 public class DirTree extends JPanel {
 	
+	private static final long serialVersionUID = 1L;
+	
 	/** 根节点 */
 	private DefaultMutableTreeNode node = null;
 	/** 根 */
@@ -123,7 +125,6 @@ public class DirTree extends JPanel {
 		 * 
 		 */
 		public void treeWillCollapse(TreeExpansionEvent event) throws ExpandVetoException {
-				
 		}
 		
 		/**
